@@ -8,6 +8,10 @@ ytascii is a lightweight terminal tool that plays YouTube videos in real-time as
 
 ![Demo](demo.gif)
 
+
+## Fastfetch Demo
+
+![Demo](fastfetch-demo.gif)
 ---
 
 ## 📦 Features
