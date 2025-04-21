@@ -6,7 +6,7 @@ ytascii is a lightweight terminal tool that plays YouTube videos in real-time as
 
 ## 🎥 Demo
 
-[![Demo](demo.mkv)](demo.mkv)
+[![Demo](demo.mp4)](demo.mp4)
 
 ---
 
