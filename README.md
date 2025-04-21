@@ -6,7 +6,7 @@ ytascii is a lightweight terminal tool that plays YouTube videos in real-time as
 
 ## 🎥 Demo
 
-[![Demo](https://raw.githack.com/Delta-Dev-1/ytascii/main/demo.mp4)](https://raw.githack.com/Delta-Dev-1/ytascii/main/demo.mp4)
+<video src="https://raw.githack.com/YourUsername/ytascii/main/demo.mp4" controls autoplay loop muted playsinline width="600"></video>
 
 ---
 
