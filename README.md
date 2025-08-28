@@ -98,5 +98,5 @@ MIT License
 
 This tool may be demonstrated with short segments of copyrighted material (e.g. a 5-second clip of "Nyan Cat") under fair use for educational and demonstrative purposes only. All rights remain with the original creators.
 
-Nyan Cat video/audio © 2011 Chris Torres (https://www.youtube.com/user/tsukikommie)  
+Nyan Cat video/audio © 2011 Chris Torres  
 Used under fair use for demonstrative and educational purposes.
