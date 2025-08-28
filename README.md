@@ -4,110 +4,77 @@ ytascii is a lightweight terminal tool that plays YouTube videos in real-time as
 
 ---
 
-## 🎥 Demo
+## Demo
 
 ![Demo](demo.gif)
-
 
 ## Fastfetch Demo
 
 ![Demo](fastfetch-demo.gif)
 ---
 
-## 📦 Features
+## Features
 
-- 🔗 Stream any YouTube video as ASCII
-- 📝 Display captions inline
-- 🖥️ Optional Fastfetch overlay (`--fastfetch-mode`)
-- 🔁 Loop playback (`--loop`)
-- 📐 Custom resolution (`--width`, `--height`)
-- ⌨️ Pause/Skip with keybindings: `p`, `q`, `f`, `b`, `c`
+- Stream any YouTube video as ASCII
+- Display captions inline
+- Optional Fastfetch overlay (`--fastfetch-mode`)
+- Loop playback (`--loop`)
+- Custom resolution (`--width`, `--height`)
+- Pause/Skip with keybindings: `p`, `q`, `f`, `b`, `c`
 
 ---
 
-## 🚀 Installation
+## Installation
 
-### 📦 One-liner (Linux/macOS)
+### One-liner (Linux/macOS)
 ```bash
-curl -s https://raw.githubusercontent.com/Delta-Dev-1/ytascii/main/install.sh | bash
-```
+curl -s [https://raw.githubusercontent.com/Delta-Dev-1/ytascii/main/install.sh](https://raw.githubusercontent.com/Delta-Dev-1/ytascii/main/install.sh) | bash
 
-### 🧰 Manual
-```bash
-git clone https://github.com/Delta-Dev-1/ytascii.git
+Manual
+git clone [https://github.com/Delta-Dev-1/ytascii.git](https://github.com/Delta-Dev-1/ytascii.git)
 cd ytascii
 chmod +x ytascii.py
 sudo ln -s $PWD/ytascii.py /usr/local/bin/ytascii
-```
 
----
-
-## ✅ Dependencies
-
-- yt-dlp
-- ffmpeg, ffplay
-- python3, pip
-- Python modules: Pillow, colorama, numpy
-
-### 🐧 Arch
-```bash
+Dependencies
+ * yt-dlp
+ * ffmpeg, ffplay
+ * python3, pip
+ * Python modules: Pillow, colorama, numpy
+Arch
 sudo pacman -S ffmpeg python-pip
 pip install yt-dlp Pillow colorama numpy
-```
 
-### 🐧 Debian/Ubuntu
-```bash
+Debian/Ubuntu
 sudo apt install ffmpeg python3-pip
 pip3 install yt-dlp Pillow colorama numpy
-```
 
-### 🍎 macOS
-```bash
+macOS
 brew install ffmpeg
 pip3 install yt-dlp Pillow colorama numpy
-```
 
----
-
-## 📖 Usage
-
-```bash
+Usage
 ytascii [options] <YouTube URL>
-```
 
-### Options:
-- `--fastfetch-mode` : Displays system info alongside the video
-- `--loop` : Replay video after it ends
-- `--width <int>` : Set output width
-- `--height <int>` : Set output height
+Options:
+ * --fastfetch-mode : Displays system info alongside the video
+ * --loop : Replay video after it ends
+ * --width <int> : Set output width
+ * --height <int> : Set output height
+Examples:
+ytascii "[https://youtu.be/dQw4w9WgXcQ](https://youtu.be/dQw4w9WgXcQ)"
+ytascii "[https://youtu.be/NyanCat](https://youtu.be/NyanCat)" --fastfetch-mode --width 60 --height 30 --loop
 
-### Examples:
-```bash
-ytascii "https://youtu.be/dQw4w9WgXcQ"
-ytascii "https://youtu.be/NyanCat" --fastfetch-mode --width 60 --height 30 --loop
-```
-
----
-
-## 💡 Platform Support
-
-- ✅ Linux
-- ✅ macOS
-- ⚠️ Windows (use WSL2 or Git Bash)
-
----
-
-## ⚖️ License
-
+Platform Support
+ * Linux
+ * macOS
+ * Windows (use WSL2 or Git Bash)
+License
 MIT License
-
----
-
-## ⚠️ Disclaimer
-
-This tool may be demonstrated with short segments of copyrighted material 
-(e.g. a 5-second clip of "Nyan Cat") under fair use for educational and 
+Disclaimer
+This tool may be demonstrated with short segments of copyrighted material
+(e.g. a 5-second clip of "Nyan Cat") under fair use for educational and
 demonstrative purposes only. All rights remain with the original creators.
-🎵 Nyan Cat video/audio © 2011 Chris Torres (https://www.youtube.com/user/tsukikommie)
+Nyan Cat video/audio © 2011 Chris Torres ([https://www.youtube.com/user/tsukikommie](https://www.youtube.com/user/tsukikommie))
 Used under fair use for demonstrative and educational purposes.
 
